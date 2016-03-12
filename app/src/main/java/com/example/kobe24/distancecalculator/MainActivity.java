@@ -19,10 +19,7 @@ public class MainActivity extends Activity implements LocationListener{
     Location prev;
     Location bestLocation=null;
     TextView txtLat;
-    String lat;
-    String provider;
-    protected String latitude,longitude;
-    protected boolean gps_enabled,network_enabled;
+//    TextView txtLat1,txtLat2;
 
     private void getLastKnownLocation() {
         List<String> providers = mLocationManager.getAllProviders();
@@ -44,32 +41,38 @@ public class MainActivity extends Activity implements LocationListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txtLat = (TextView) findViewById(R.id.textview1);
+//        txtLat1 = (TextView) findViewById(R.id.textview2);
+//        txtLat2= (TextView) findViewById(R.id.textview3);
         mLocationManager = (LocationManager)getApplicationContext().getSystemService(LOCATION_SERVICE);
-        mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, new LocationListener() {
+        mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 2000, 2, new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-                dist+=prev.distanceTo(location);
-                ans=(long) dist;
-                prev=location;
-                txtLat.setText("Distance Travelled : " + ans + " meters");
+                dist += prev.distanceTo(location);
+                ans = (long) dist;
+//                txtLat.setText(prev.getLongitude()+" "+prev.getLatitude());
+//                txtLat1.setText(location.getLongitude()+" "+location.getLatitude());
+                txtLat.setText("Distance Travelled : " + ans/1000 +"kms" + ans%1000 + " meter(s)");
+                prev = location;
             }
+
             @Override
             public void onProviderDisabled(String provider) {
                 // TODO Auto-generated method stub
             }
+
             @Override
             public void onProviderEnabled(String provider) {
                 // TODO Auto-generated method stub
             }
+
             @Override
             public void onStatusChanged(String provider, int status,
                                         Bundle extras) {
                 // TODO Auto-generated method stub
             }
         });
-
         getLastKnownLocation();
-        txtLat.setText("Distance Travelled : " + ans + " meters");
+        txtLat.setText("Distance Travelled : " + ans/1000 +"kms" + ans%1000 + " meter(s)");
     }
 
     @Override

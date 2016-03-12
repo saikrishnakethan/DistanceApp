@@ -32,24 +32,24 @@
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -76,56 +76,56 @@
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_menu.xml"
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
@@ -140,20 +140,20 @@
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/content_main.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/src/main/res/layout/content_main.xml"
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/src/main/res/layout/content_main.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -176,12 +176,12 @@
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_content_include.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -192,12 +192,12 @@
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/kobe24/AndroidStudioProjects/DistanceCalculator/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
