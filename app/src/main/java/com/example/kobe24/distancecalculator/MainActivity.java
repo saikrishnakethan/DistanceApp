@@ -51,7 +51,7 @@ public class MainActivity extends Activity implements LocationListener{
                 ans = (long) dist;
 //                txtLat.setText(prev.getLongitude()+" "+prev.getLatitude());
 //                txtLat1.setText(location.getLongitude()+" "+location.getLatitude());
-                txtLat.setText("Distance Travelled : " + ans/1000 +"kms" + ans%1000 + " meter(s)");
+                txtLat.setText("Distance Travelled : " + ans/1000 +" kms " + ans%1000 + " meter(s)");
                 prev = location;
             }
 
