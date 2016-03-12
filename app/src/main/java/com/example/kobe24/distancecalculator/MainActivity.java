@@ -14,6 +14,9 @@ public class MainActivity extends Activity implements LocationListener{
     protected LocationManager mLocationManager;
     protected LocationListener locationListener;
     protected Context context;
+    double dist=0.0;
+    long ans=0;
+    Location prev;
     Location bestLocation=null;
     TextView txtLat;
     String lat;
@@ -31,6 +34,7 @@ public class MainActivity extends Activity implements LocationListener{
             if (bestLocation == null || l.getAccuracy() < bestLocation.getAccuracy()) {
                 // Found best last known location: %s", l);
                 bestLocation = l;
+                prev=bestLocation;
             }
         }
     }
@@ -41,10 +45,13 @@ public class MainActivity extends Activity implements LocationListener{
         setContentView(R.layout.activity_main);
         txtLat = (TextView) findViewById(R.id.textview1);
         mLocationManager = (LocationManager)getApplicationContext().getSystemService(LOCATION_SERVICE);
-        mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 0, new LocationListener() {
+        mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 1, new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-                txtLat.setText("Latitude:" + location.getLatitude() + ", Longitude:" + location.getLongitude());
+                dist+=prev.distanceTo(location);
+                ans=(long) dist;
+                prev=location;
+                txtLat.setText("Distance Travelled : " + ans + " meters");
             }
             @Override
             public void onProviderDisabled(String provider) {
@@ -62,9 +69,9 @@ public class MainActivity extends Activity implements LocationListener{
         });
 
         getLastKnownLocation();
-        if(bestLocation==null) txtLat.setText("lkuulul");
-        else txtLat.setText("Latitude:" + bestLocation.getLatitude() + ", Longitude:" + bestLocation.getLongitude());
+        txtLat.setText("Distance Travelled : " + ans + " meters");
     }
+
     @Override
     public void onLocationChanged(Location location) {
 
