@@ -22,7 +22,6 @@ public class MainActivity extends Activity implements LocationListener{
     protected boolean gps_enabled,network_enabled;
 
     private void getLastKnownLocation() {
-        mLocationManager = (LocationManager)getApplicationContext().getSystemService(LOCATION_SERVICE);
         List<String> providers = mLocationManager.getAllProviders();
         for (String provider : providers) {
             Location l = mLocationManager.getLastKnownLocation(provider);
@@ -41,14 +40,34 @@ public class MainActivity extends Activity implements LocationListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txtLat = (TextView) findViewById(R.id.textview1);
+        mLocationManager = (LocationManager)getApplicationContext().getSystemService(LOCATION_SERVICE);
+        mLocationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 0, new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                txtLat.setText("Latitude:" + location.getLatitude() + ", Longitude:" + location.getLongitude());
+            }
+            @Override
+            public void onProviderDisabled(String provider) {
+                // TODO Auto-generated method stub
+            }
+            @Override
+            public void onProviderEnabled(String provider) {
+                // TODO Auto-generated method stub
+            }
+            @Override
+            public void onStatusChanged(String provider, int status,
+                                        Bundle extras) {
+                // TODO Auto-generated method stub
+            }
+        });
+
         getLastKnownLocation();
         if(bestLocation==null) txtLat.setText("lkuulul");
         else txtLat.setText("Latitude:" + bestLocation.getLatitude() + ", Longitude:" + bestLocation.getLongitude());
     }
     @Override
     public void onLocationChanged(Location location) {
-        txtLat = (TextView) findViewById(R.id.textview1);
-        txtLat.setText("Latitude:" + location.getLatitude() + ", Longitude:" + location.getLongitude());
+
     }
 
     @Override
